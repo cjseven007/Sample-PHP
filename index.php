@@ -64,7 +64,7 @@
     <header>
         <img src="profilepic.jpg" alt="Profile Picture">
         <h1>Hi, I'm Lim Jia Chyuen</h1>
-        <p>This is my PHP Project for Assessment 2.</p>
+        <p>This is my PHP project for Assessment 2.</p>
     </header>
 
     <section id="lessons">
