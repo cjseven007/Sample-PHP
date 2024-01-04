@@ -30,11 +30,16 @@
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         }
 
+        .text h2 {
+            text-align: center;
+        }
+
         #lessons {
             max-width: 800px;
             margin: 20px auto;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
 
         }
 
@@ -42,8 +47,7 @@
             background-color: white;
             margin-bottom: 20px;
             border: 2px solid #ddd;
-            padding: 10px;
-            padding-left: 20px;
+            padding: 20px;
             border-radius: 15px;
         }
 
@@ -69,7 +73,7 @@
         <h1>Hi, I'm Lim Jia Chyuen</h1>
         <p>This is my PHP project for Assessment 2.</p>
     </header>
-    <h2>Technologies Implemented</h2>
+    <h2 class="text">Technologies Implemented</h2>
     <section id="lessons">
 
 
