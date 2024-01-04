@@ -69,9 +69,9 @@
         <h1>Hi, I'm Lim Jia Chyuen</h1>
         <p>This is my PHP project for Assessment 2.</p>
     </header>
-
+    <h2>Technologies Implemented</h2>
     <section id="lessons">
-        <h2>Technologies Implemented</h2>
+
 
         <?php
         $lessons = [
