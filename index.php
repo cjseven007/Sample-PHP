@@ -33,6 +33,9 @@
         #lessons {
             max-width: 800px;
             margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
         }
 
         .lesson {
@@ -68,13 +71,13 @@
     </header>
 
     <section id="lessons">
-        <h2>Key Things I Learnt</h2>
+        <h2>Technologies Implemented</h2>
 
         <?php
         $lessons = [
-            ['title' => 'Fundamentals of  Cloud Computing', 'description' => 'Defining Cloud Computing, identify its benefits, types of deployment model and many more.'],
-            ['title' => 'AWS EC2', 'description' => 'Launching an instance of Amazon Elastic Cloud Compute, managing and configuring the server.'],
-            ['title' => 'LAMP Stack', 'description' => 'Linux (OS), Apache (Web Server), MySQL (Database Server), PHP (Programming Language).'],
+            ['title' => 'Deploy Using Auto Git Deployment on RunCloud', 'description' => 'I deployed my PHP project from my Github repository using deploy key and webhook.'],
+            ['title' => 'Install SSL with RunCloud', 'description' => 'By exploring Self Signed Certificate in RunCloud, I am able to install SSL on my website and installed the root certificate on my local machine.'],
+
         ];
 
         // Loop through lessons and display them
