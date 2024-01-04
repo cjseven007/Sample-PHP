@@ -76,7 +76,7 @@
     <header>
         <img src="profilepic.jpg" alt="Profile Picture">
         <h1>Hi, I'm Lim Jia Chyuen</h1>
-        <p>This is my PHP project for Assessment 2.</p>
+        <p>This is my PHP project for Assessment 2. <br /> The PHP project is developed by myself and pushed to GitHub Repository to deploy it through RunCloud Auto Git Deployment with SSL installed.</p>
     </header>
     <h2 class="text">Technologies Implemented</h2>
     <section id="lessons">
@@ -84,7 +84,7 @@
 
         <?php
         $lessons = [
-            ['title' => 'Deploy Using Auto Git Deployment on RunCloud', 'description' => 'I deployed my PHP project from my Github repository using deploy key and webhook.'],
+            ['title' => 'Deploy Using Auto Git Deployment on RunCloud', 'description' => 'I deployed my PHP project from my GitHub repository using deploy key and webhook.'],
             ['title' => 'Install SSL with RunCloud', 'description' => 'By exploring Self Signed Certificate in RunCloud, I am able to install SSL on my website and installed the root certificate on my local machine.'],
 
         ];
